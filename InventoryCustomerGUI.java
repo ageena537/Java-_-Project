@@ -166,6 +166,6 @@ public class InventoryCustomerGUI extends AbstractCustomerManager implements Cus
         sorter.setRowFilter(null);
     }
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(InventoryCustomerGUI::new);
+        new InventoryCustomerGUI();
     }
 }
